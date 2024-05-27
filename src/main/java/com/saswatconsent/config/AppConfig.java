@@ -1,4 +1,4 @@
-package com.saswatconsent.config;
+ package com.saswatconsent.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

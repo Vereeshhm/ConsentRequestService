@@ -6,20 +6,14 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 @PropertySource("file:src/main/resources/application.properties")
+
 public class PropertiesConfig {
 
-	@Value("${tocken}")
-	private String tocken;
+
 	@Value("${url}")
 	private String url;
 
-	public String getTocken() {
-		return tocken;
-	}
-
-	public void setTocken(String tocken) {
-		this.tocken = tocken;
-	}
+	
 
 	public String getUrl() {
 		return url;
